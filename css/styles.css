@@ -27,7 +27,6 @@ p {
 
 /*common*/
 .container {
-  
   max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
@@ -485,4 +484,63 @@ footer .span-logo {
 .link-footer-icons:hover,
 .link-footer-icons:focus {
   background-color: #31d0aa;
+}
+/* model-overlay */
+.model-overlay {
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
+    0 2px 1px 0 rgba(0, 0, 0, 0.2);
+  background: #fcfcfc;
+  position: fixed;
+  top: 0;
+  left: 0;
+  max-width: 408px;
+  max-height: 584px;
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.model {
+  border-radius: 4px;
+  width: 360px;
+  height: 336px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.text-title {
+}
+
+.form {
+}
+
+.model-input {
+  border: 1px solid #4d5ae5;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+}
+
+.model-comment {
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  width: 360px;
+  height: 120px;
+}
+.model-button {
+  letter-spacing: 0.04em;
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+  border-radius: 4px;
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #4d5ae5;
+  
 }
